@@ -1,5 +1,5 @@
 # Python App CI/CD Pipeline using AWS CodePipeline & CodeBuild
-This project demonstrates a simple but complete Continuous Integration (CI) pipeline built on AWS.
+This project demonstrates how to implement a CI using AWS CodePipeline, AWS CodeBuild, and DockerHub for a Python application. The source code is managed on GitHub, and the application is containerized using Docker.
 
 # Tech Stack
 - AWS CodePipeline – Manages the CI pipeline
@@ -19,9 +19,15 @@ This project demonstrates a simple but complete Continuous Integration (CI) pipe
 # Project Structure
 aws-ci-cd-pipeline/
 ├── app/
-│   ├── Dockerfile
 │   ├── app.py
-│   └── requirements.txt
+│   ├── Dockerfile
+│   ├── requirements.txt
+├── images/
+│   ├── Codebuild Status - Successful.png
+│   ├── Continuous Integration Process.png
+│   ├── Dockerhub.png
+│   ├── Executions in CodePipeline.png
+│   └── Phase details of CodeBuild.png
 ├── buildspec.yml
 └── README.md
 
