@@ -18,17 +18,28 @@ This project demonstrates how to implement a CI using AWS CodePipeline, AWS Code
 
 # Project Structure
 aws-ci-cd-pipeline/
-├── app/
+├── app/ 
+<br>
 │   ├── app.py
+<br>
 │   ├── Dockerfile
+<br>
 │   ├── requirements.txt
+<br>
 ├── images/
+<br>
 │   ├── Codebuild Status - Successful.png
+<br>
 │   ├── Continuous Integration Process.png
+<br>
 │   ├── Dockerhub.png
+<br>
 │   ├── Executions in CodePipeline.png
+<br>
 │   └── Phase details of CodeBuild.png
+<br>
 ├── buildspec.yml
+<br>
 └── README.md
 
 Policies attached in role created:-
