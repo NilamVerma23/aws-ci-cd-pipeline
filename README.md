@@ -18,6 +18,7 @@ This project demonstrates how to implement a CI using AWS CodePipeline, AWS Code
 
 # Project Structure
 aws-ci-cd-pipeline/
+<br>
 ├── app/ 
 <br>
 │   ├── app.py
@@ -43,12 +44,19 @@ aws-ci-cd-pipeline/
 └── README.md
 
 Policies attached in role created:-
-
+<br>
 AmazonSSMFullAccess
+<br>
 AWSCodeBuildAdminAccess
+<br>
 AWSCodePipeline_FullAccess
+<br>
 AWSCodeStarFullAccess
+<br>
 CodeBuildBasePolicy-aws-ci-cd-role-ap-south-1
+<br>
 CodeBuildCodeConnectionsSourceCredentialsPolicy-aws-ci-cd-python-project-ap-south-1-520334513362
+<br>
 ROSAKMSProviderPolicy
+<br>
 SecretsManagerReadWrite
